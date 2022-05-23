@@ -1,6 +1,9 @@
+gury\springframework\sfgpetclinic\services\OwnerService.class
+gury\springframework\sfgpetclinic\services\VetService.class
 gury\springframework\sfgpetclinic\model\Vet.class
+gury\springframework\sfgpetclinic\services\PetService.class
 gury\springframework\sfgpetclinic\model\Person.class
-gury\springframework\sfgpetclinic\model\Fedor.class
 gury\springframework\sfgpetclinic\model\Owner.class
 gury\springframework\sfgpetclinic\model\Pet.class
+gury\springframework\sfgpetclinic\model\BaseEntity.class
 gury\springframework\sfgpetclinic\model\PetType.class
