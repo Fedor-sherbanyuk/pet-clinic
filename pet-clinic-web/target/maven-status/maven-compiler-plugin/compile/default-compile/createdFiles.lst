@@ -1,1 +1,5 @@
 gury\springframework\sfgpetclinic\SfgPetClinicApplication.class
+gury\springframework\sfgpetclinic\controllers\IndexController.class
+gury\springframework\sfgpetclinic\controllers\VetController.class
+gury\springframework\sfgpetclinic\bootstrap\DataLoader.class
+gury\springframework\sfgpetclinic\controllers\OwnerController.class
