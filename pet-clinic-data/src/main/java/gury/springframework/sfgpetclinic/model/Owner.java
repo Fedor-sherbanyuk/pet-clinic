@@ -2,6 +2,7 @@ package gury.springframework.sfgpetclinic.model;
 
 import org.springframework.stereotype.Component;
 
+import java.util.HashSet;
 import java.util.Set;
 
 @Component
@@ -11,7 +12,7 @@ public class Owner extends Person{
     private String city;
     private String telephone;
 
-    private Set<Pet> pets;
+    private Set<Pet> pets=new HashSet<>();
 
     public String getAddress() {
         return address;
