@@ -1,10 +1,13 @@
 package gury.springframework.sfgpetclinic.model;
 
-import org.springframework.stereotype.Component;
+import javax.persistence.Column;
+import javax.persistence.MappedSuperclass;
 
-@Component
+@MappedSuperclass
 public class Person extends BaseEntity{
+    @Column(name ="firstname")
     private String firstname;
+    @Column(name ="lastname")
     private String lastname;
 
     public String getFirstname() {
