@@ -119,6 +119,7 @@
                         <includePath>${project.build.directory}/webjars/META-INF/resources/webjars/bootstrap/${webjars-bootstrap.version}/scss/</includePath>
                     </configuration>
                 </plugin>
+
             </plugins>
         </build>
 
