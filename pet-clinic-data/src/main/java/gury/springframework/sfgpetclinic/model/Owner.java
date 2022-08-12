@@ -14,8 +14,8 @@ import java.util.Set;
 @NoArgsConstructor
 @Entity
 @Table(name = "owners")
-
 public class Owner extends Person {
+
     @Builder
     public Owner(Long id, String firstName, String lastName, String address, String city,
                  String telephone, Set<Pet> pets) {
@@ -24,7 +24,7 @@ public class Owner extends Person {
         this.city = city;
         this.telephone = telephone;
 
-        if (pets != null) {
+        if(pets != null) {
             this.pets = pets;
         }
     }

@@ -15,25 +15,26 @@ import org.springframework.web.servlet.ModelAndView;
 
 import java.util.List;
 
-
+/**
+ * Created by jt on 7/22/18.
+ */
+@RequestMapping("/owners")
 @Controller
-@RequestMapping("owners")
 public class OwnerController {
+    private static final String VIEWS_OWNER_CREATE_OR_UPDATE_FORM = "owners/createOrUpdateOwnerForm";
 
     private final OwnerService ownerService;
+
     public OwnerController(OwnerService ownerService) {
         this.ownerService = ownerService;
     }
 
     @InitBinder
-    public void setAllowedFields(WebDataBinder dataBinder){
+    public void setAllowedFields(WebDataBinder dataBinder) {
         dataBinder.setDisallowedFields("id");
     }
-//    @RequestMapping({"","/index","/index.html"})
-//    public String listOwners(Model model){
-//        model.addAttribute("owners",ownerService.findAll());
-//        return "owners/index";
-//    }
+
+
     @RequestMapping("/find")
     public String findOwners(Model model){
         model.addAttribute("owner", Owner.builder().build());
@@ -48,7 +49,7 @@ public class OwnerController {
         }
 
         // find owners by last name
-        List<Owner> results = ownerService.findAllByLastNameLike(owner.getLastName());
+        List<Owner> results = this.ownerService.findAllByLastNameLike("%"+ owner.getLastName() + "%");
 
         if (results.isEmpty()) {
             // no owners found
