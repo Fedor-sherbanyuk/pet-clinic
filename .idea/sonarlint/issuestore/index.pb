@@ -9,8 +9,6 @@ q
 Apet-clinic-data/src/main/java/gury/springframework/model/Vet.java,4\d\4d3fdf2944f2821d273b4e48044f850321f78ce8
 s
 Cpet-clinic-data/src/main/java/gury/springframework/model/Visit.java,a\2\a2b24e735904c27cb8fafc3bb2cf71444026cc10
-ê
-`pet-clinic-web/src/test/java/gury/springframework/sfgpetclinic/SfgPetClinicApplicationTests.java,f\8\f84a4ed862bbff1d52f39c58b7a2d3768969ccfd
 è
 _pet-clinic-data/src/main/java/gury/springframework/sfgpetclinic/services/map/PetMapService.java,c\d\cd882038023c906225701f5e0656eaf87432860e
 î
