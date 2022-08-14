@@ -27,8 +27,6 @@ F
 pet-clinic-web/pom.xml,0\3\032ca50b02fafe66044aef14aee29974c390637f
 è
 _pet-clinic-data/src/main/java/gury/springframework/sfgpetclinic/repositories/PetRepository.java,4\a\4a9472c02899cd6001bc8a4ae36510e618afaa6f
-~
-Npet-clinic-data/src/main/java/gury/springframework/sfgpetclinic/model/Pet.java,e\6\e69655d7028da6718c972ac28787114cdd0ca082
 Ö
 Upet-clinic-data/src/main/java/gury/springframework/sfgpetclinic/model/Speciality.java,3\6\3661e95debbb62776e9ca77a097bbb4be993c5fb
 ~
@@ -43,8 +41,6 @@ Xpet-clinic-web/src/main/java/gury/springframework/sfgpetclinic/bootstrap/DataLo
 apet-clinic-data/src/main/java/gury/springframework/sfgpetclinic/services/map/OwnerMapService.java,b\3\b37a39e2813975a9cf1cea8d2e67333cd0abb1a4
 w
 G.idea/sonarlint/issuestore/9/b/9b44e2dedf6298473e1be1cd91b663a3be31f5c8,b\2\b2fd240426600e3d29489ae9352dea64620a5809
-Ä
-Ppet-clinic-data/src/main/java/gury/springframework/sfgpetclinic/model/Owner.java,2\9\2995ab16953a0e24692ac6f5b059f73b76c0d34c
 w
 G.idea/sonarlint/issuestore/9/b/9bf8e3bb0b01bdec1bd0c8ec9a303222b9eebf3f,3\3\3340c425f7611bba8291cdb0f40502805975c7f1
 w
