@@ -9,8 +9,17 @@ import java.text.ParseException;
 import java.util.Collection;
 import java.util.Locale;
 
+<<<<<<< HEAD
 @Component
 public class PetTypeFormatter implements Formatter<PetType> {
+=======
+/**
+ * Created by jt on 9/22/18.
+ */
+@Component
+public class PetTypeFormatter implements Formatter<PetType> {
+
+>>>>>>> e3c5a98 (add /Update Pet Not working. Closes #66)
     private final PetTypeService petTypeService;
 
     public PetTypeFormatter(PetTypeService petTypeService) {
@@ -34,4 +43,8 @@ public class PetTypeFormatter implements Formatter<PetType> {
 
         throw new ParseException("type not found: " + text, 0);
     }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> e3c5a98 (add /Update Pet Not working. Closes #66)
