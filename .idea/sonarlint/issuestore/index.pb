@@ -29,8 +29,6 @@ F
 _pet-clinic-data/src/main/java/gury/springframework/sfgpetclinic/repositories/PetRepository.java,4\a\4a9472c02899cd6001bc8a4ae36510e618afaa6f
 ~
 Npet-clinic-data/src/main/java/gury/springframework/sfgpetclinic/model/Pet.java,e\6\e69655d7028da6718c972ac28787114cdd0ca082
-‚
-Rpet-clinic-data/src/main/java/gury/springframework/sfgpetclinic/model/PetType.java,c\1\c132fc4c5c7325d22d709f4601980fccc6852827
 …
 Upet-clinic-data/src/main/java/gury/springframework/sfgpetclinic/model/Speciality.java,3\6\3661e95debbb62776e9ca77a097bbb4be993c5fb
 ~
