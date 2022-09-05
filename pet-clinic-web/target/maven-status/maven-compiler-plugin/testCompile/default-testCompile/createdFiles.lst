@@ -1,0 +1,5 @@
+gury\springframework\sfgpetclinic\controllers\OwnerControllerTest.class
+gury\springframework\sfgpetclinic\controllers\PetControllerTest.class
+gury\springframework\sfgpetclinic\services\map\OwnerMapServiceTest.class
+gury\springframework\sfgpetclinic\services\springdatajpa\OwnerSDJPAServiceTest.class
+gury\springframework\sfgpetclinic\SfgPetClinicApplicationTests.class
