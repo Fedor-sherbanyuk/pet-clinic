@@ -32,6 +32,10 @@ public class Owner extends Person {
     @Column(name = "address")
     private String address;
 
+//    @Column(name = "birth-date")
+//    @DateTimeFormat(pattern = "yyyy-MM-dd")
+//    private LocalDate birthDate;
+
     @Column(name = "city")
     private String city;
 
